@@ -1,0 +1,2 @@
+module SneakersRails
+end
