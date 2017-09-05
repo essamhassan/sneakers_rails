@@ -9,15 +9,16 @@ Gem::Specification.new do |s|
   s.version     = SneakersRails::VERSION
   s.authors     = ["Essam A. Hassan"]
   s.email       = ["es.hassan187@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of SneakersRails."
-  s.description = "TODO: Description of SneakersRails."
+  s.homepage    = "https://github.com/essamhassan/sneakers-rails"
+  s.summary     = "A ruby background processing framework backed by RabbitMQ with sneakers.io under the hood"
+  s.description = "A ruby background processing framework backed by RabbitMQ with sneakers.io under the hood. It integrates with your existing rails application and encapsulates sneakers functionality into your app"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 4.2.9"
+  s.add_dependency "sneakers", "~> 2.5.0"
 
   s.add_development_dependency "sqlite3"
 end
