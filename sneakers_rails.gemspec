@@ -20,5 +20,4 @@ Gem::Specification.new do |s|
   s.add_dependency "rails", "~> 4.2.9"
   s.add_dependency "sneakers", "~> 2.5.0"
 
-  s.add_development_dependency "sqlite3"
 end
