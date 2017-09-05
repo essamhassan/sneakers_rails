@@ -1,0 +1,10 @@
+require 'sneakers'
+
+# TODO: change your connection configs
+Sneakers.configure( :heartbeat => 2,
+                   :amqp => "amqp://guest:guest@<%= url %>:5672",
+                    :vhost => '/',
+                    :exchange => 'sneakers',
+                    :exchange_type => :direct )
+Sneakers.logger.level = Logger::INFO
+

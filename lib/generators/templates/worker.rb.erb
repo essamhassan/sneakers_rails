@@ -1,0 +1,10 @@
+class <%= worker_name.capitalize %>Worker
+  include Sneakers::Worker
+  from_queue :<%= queue_name %>
+
+
+  def work(msg)
+    # do the work here
+    ack!
+  end
+end

@@ -1,0 +1,5 @@
+# POST INSTALLATION README
+sneakers was successfully installed. Now you need to setup your connection
+
+- Customize your rabbitMQ connection params in config/initializers/sneakers.rb
+- Run rails g pacemaker:worker WORKERNAME QUEUENAME to generate your first worker
