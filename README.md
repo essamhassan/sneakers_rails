@@ -20,9 +20,16 @@ Or install it yourself as:
 
 ## Usage
 
-- Run `rails g sneakers_rails:install` to install sneakers into your application
-- Go to `config/initializers/sneakers.rb` and edit the file with your rabbitMQ config
-- Run `rails g sneakers_rails:worker [WORKERNAME] [QUEUENAME]`
+### Setting up
+    - Run `rails g sneakers_rails:install` to install sneakers into your application
+    - Go to `config/initializers/sneakers.rb` and edit the file with your rabbitMQ config
+
+### Generating workers
+    - Run `rails g sneakers_rails:worker [WORKERNAME] [QUEUENAME]`
+
+### Running sneakers
+You'll need to expose the worker classes you want to run
+    - Run `WORKERS=WebScraper rake sneakers:run`
 
 ## Contributing
 
