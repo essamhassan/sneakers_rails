@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    sneakers_rails (0.0.1)
+    sneakers_rails (0.0.2)
       rails (~> 4.2.9)
       sneakers (~> 2.5.0)
 
