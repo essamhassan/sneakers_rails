@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = SneakersRails::VERSION
   s.authors     = ["Essam A. Hassan"]
   s.email       = ["es.hassan187@gmail.com"]
-  s.homepage    = "https://github.com/essamhassan/sneakers-rails"
+  s.homepage    = "https://github.com/essamhassan/sneakers_rails"
   s.summary     = "A ruby background processing framework backed by RabbitMQ with sneakers.io under the hood"
   s.description = "A ruby background processing framework backed by RabbitMQ with sneakers.io under the hood. It integrates with your existing rails application and encapsulates sneakers functionality into your app"
   s.license     = "MIT"
