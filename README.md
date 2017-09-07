@@ -1,4 +1,4 @@
-# sneakers-rails
+# sneakers_rails
 
 Integrates sneakers into your rails application with no headache.
 
@@ -26,6 +26,9 @@ Or install it yourself as:
 
 ### Generating workers
     - Run `rails g sneakers_rails:worker [WORKERNAME] [QUEUENAME]`
+
+### Publishing messages
+    - `Sneakers.publish([SERIALIZED MESSAGE],:routing_key=>[QUEUENAME])`
 
 ### Running sneakers
 You'll need to expose the worker classes you want to run
